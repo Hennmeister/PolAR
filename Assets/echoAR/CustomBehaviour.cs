@@ -38,7 +38,6 @@ public class CustomBehaviour : MonoBehaviour
         "Ganuk"
     };
 
-    noob uhaul  
     // Use this for initialization
     void Start()
     {
