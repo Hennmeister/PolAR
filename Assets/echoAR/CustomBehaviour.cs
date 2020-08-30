@@ -38,12 +38,10 @@ public class CustomBehaviour : MonoBehaviour
         "Ganuk"
     };
 
-
+    noob uhaul  
     // Use this for initialization
     void Start()
     {
-        BoundedPlane plane = new BoundedPlane();
-        Debug.Log(plane.ToString());
         // Add RemoteTransformations script to object and set its entry
         this.gameObject.AddComponent<RemoteTransformations>().entry = entry;
 
@@ -74,6 +72,7 @@ public class CustomBehaviour : MonoBehaviour
                 TextMesh t = text.AddComponent<TextMesh>();
                 t.text = name + "\r\n" + age + "\r\n" + birth + "\r\n" + birthplace + "\r\n" + arrival;
                 t.fontSize = 50;
+                t.color = new Vector4(0, 0, 0, 1);
                 text.name = "Text" + name;
                 text.transform.localScale = 0.1f * Vector3.one;
                 
@@ -88,7 +87,7 @@ public class CustomBehaviour : MonoBehaviour
                         Random.Range(minPos.z, maxPos.z));
 
         //Flip polar bear in z-axis
-        if(this.gameObject.name.Contains("Polar Bear"))  {
+        if(this.gameObject.name.Contains("Polar Bear")) {
                  this.transform.localScale = new Vector3(0.5f, 0.5f, -0.5f);
          }
     }
