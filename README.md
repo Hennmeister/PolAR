@@ -4,7 +4,7 @@
 Our virtual gallery allows users to learn more about the Canadian Polar Bear Habitat while Ganuk, Eddy, Inukshuk, and Henry roam about.
 
 ## It’s built with
-echoAR, Unity, C#, https://canadianpolarbearhabitat.com/, Canadian Polar Bear Habitat Dropbox, and love.
+echoAR, Unity, C#, and love.
 
 ## Team
 henning.lindig@mail.utoronto.ca, tilman.lindig@gmail.com, tangirl2001@hotmail.com
